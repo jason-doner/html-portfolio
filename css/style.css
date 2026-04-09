@@ -1,25 +1,86 @@
-.flex-container {
+.portfolio {
+    padding: 2rem 1.5rem;
+}
+
+.nav-container {
     display: flex;
-    width: 100%;
     justify-content: space-between;
-    margin-left: auto;
     align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #5b5a78;
 }
 
-.large-green {
+.logo {
     font-family: 'Orbitron', monospace;
-    color: rgb(0, 254, 186);
+    color: #00ffb3;
     font-weight: bold;
-    font-size: 20px;
-    flex-basis: 75%;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
 }
 
-.small-green {
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #5b5a78;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.hero {
+    padding: 4rem 0;
+    border-bottom: 1px solid #5b5a78;
+}
+
+.hero-tag {
     font-family: 'Orbitron', monospace;
-    color: rgb(4, 145, 110);
+    color: #00ffb3;
+    /*color: rgb(0, 254, 186);*/
+    letter-spacing: 0.1em;
+}
+
+.hero span {
+    color: #00ffb3;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-btns button {
+    font-family: 'Orbitron', monospace;
+    font-size: 15px;
+    padding: 0.5rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.status-bar {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #5b5a78;
+}
+
+.status-label {
+    font-family: 'Orbitron', monospace;
+    color: #5b5a78;
+}
+
+.status-value {
+    font-family: 'Orbitron', monospace;
+    color: #00ffb3;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 body {
+    font-family: 'IBM Plex Mono', monospace;
     background-color: black;
 }
 
