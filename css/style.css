@@ -7,7 +7,7 @@
 }
 
 .large-green {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', monospace;
     color: rgb(0, 254, 186);
     font-weight: bold;
     font-size: 20px;
@@ -15,7 +15,7 @@
 }
 
 .small-green {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', monospace;
     color: rgb(4, 145, 110);
 }
 
@@ -24,12 +24,12 @@ body {
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', monospace;
     color: #5b5a78;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', monospace;
     font-weight: 900;
     color: white;
 }
