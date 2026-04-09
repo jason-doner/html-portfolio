@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: auto;
+    align-items: center;
+}
+
+.large-green {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 254, 186);
+    font-weight: bold;
+    font-size: 20px;
+    flex-basis: 75%;
+}
+
+.small-green {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(4, 145, 110);
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #5b5a78;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: white;
+}
