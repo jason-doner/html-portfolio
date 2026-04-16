@@ -1,12 +1,12 @@
 .portfolio {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid rgba(91, 90, 120, 0.5);
 }
 
@@ -14,7 +14,7 @@
     font-family: 'Orbitron', monospace;
     color: #00ffb3;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.1em;
 }
 
@@ -48,6 +48,7 @@
 .hero-btns {
     display: flex;
     gap: 1rem;
+    margin-top: 50px;
 }
 
 .hero-btns button {
@@ -61,10 +62,15 @@
 
 .status-bar {
     display: flex;
-    gap: 5rem;
+    gap: 0rem 5rem;
     align-items: center;
     padding: 1.5rem 0;
     border-bottom: 1px solid rgba(91, 90, 120, 0.5);
+}
+
+.status p {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .status-label {
@@ -76,7 +82,56 @@
     font-family: 'Orbitron', monospace;
     color: #00ffb3;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.25rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    align-items: center;
+}
+
+.projects span {
+    color: #ff3c6e;
+}
+
+.projects hr {
+    flex-grow: 1;
+    margin-left: 10px;
+    border: 1px solid rgba(91, 90, 120, 0.5);
+}
+
+.break {
+    flex-basis: 100%;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.projects a {
+    text-decoration: none;
+    display: block;
+    margin: 
+}
+
+.project {
+    padding: 1rem 1.5rem;
+    border: 1px solid rgba(91, 90, 120, 0.5);
+    flex-basis: 50%;
+}
+
+.project-class {
+    color: #ff3c6e;
+}
+
+.project-class, .project-title, .project-description {
+    margin: 1rem 0.5rem;
 }
 
 body {
@@ -92,5 +147,20 @@ p {
 h1 {
     font-family: 'Orbitron', monospace;
     font-weight: 900;
+    color: white;
+}
+
+h2 {
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+h3 {
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+    font-weight: 100;
     color: white;
 }
