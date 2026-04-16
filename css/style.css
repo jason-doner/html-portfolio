@@ -107,23 +107,34 @@
 }
 
 .project-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 2rem 0;
+    display: grid;
+    padding: 1.5rem 0;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    width: 100%;
 }
 
 .projects a {
     text-decoration: none;
     display: block;
-    margin: 
 }
 
 .project {
     padding: 1rem 1.5rem;
-    border: 1px solid rgba(91, 90, 120, 0.5);
-    flex-basis: 50%;
+    border: 1px solid #ff3c6e;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.project::before {
+  content: "";
+  position: absolute;
+  top: 0;    /* Pull slightly outside parent border */
+  right: 0;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #ff3c6e;  /* Accent color */
+  border-right: 3px solid #ff3c6e;
 }
 
 .project-class {
