@@ -125,7 +125,8 @@
 
 .project {
     padding: 1rem 1.5rem;
-    border: 1px solid #ff3c6e;
+    border: 1px solid rgba(91, 90, 120, 0.5);
+    background-color: #111118;
     position: relative;
     box-sizing: border-box;
 }
@@ -133,8 +134,8 @@
 .project::before {
   content: "";
   position: absolute;
-  top: 0;    /* Pull slightly outside parent border */
-  right: 0;
+  top: -1px;    /* Pull slightly outside parent border */
+  right: -1px;
   width: 20px;
   height: 20px;
   border-top: 3px solid #ff3c6e;  /* Accent color */
