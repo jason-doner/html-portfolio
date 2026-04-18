@@ -149,6 +149,19 @@
     margin: 1rem 0.5rem;
 }
 
+.project-stack {
+    display: flex;
+    margin: 0 0.5rem;
+    gap: 0.5rem;
+}
+
+.stack-item {
+    color: #5b5a78;
+    border: 1px solid rgba(91, 90, 120, 0.5);
+    padding: 0.1rem 0.5rem;
+    margin-top: 0;
+}
+
 /* --------------------Generic Elements-------------------- */
 
 div > h2 > span {
