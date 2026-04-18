@@ -93,14 +93,16 @@
 
 /* --------------------Project Section-------------------- */
 
-.projects {
+.section {
     display: flex;
     flex-wrap: wrap;
-    padding: 4rem 0;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
     align-items: center;
 }
 
-.projects hr {
+.section hr {
     flex-grow: 1;
     margin-left: 10px;
     border: 1px solid rgba(91, 90, 120, 0.5);
@@ -118,7 +120,7 @@
     width: 100%;
 }
 
-.projects a {
+.project-cards a {
     display: flex;
     text-decoration: none;
 }
