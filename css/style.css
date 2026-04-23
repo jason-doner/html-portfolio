@@ -59,7 +59,7 @@
     font-family: 'Orbitron', monospace;
     font-size: 15px;
     padding: 0.5rem;
-    color: white;
+    color: #e0e0f0;
     background-color: black;
     border-radius: 10px;
 }
@@ -91,7 +91,7 @@
     font-size: 1.25rem;
 }
 
-/* --------------------Project Section-------------------- */
+/* --------------------Generic Section-------------------- */
 
 .section {
     display: flex;
@@ -112,6 +112,7 @@
     flex-basis: 100%;
 }
 
+/* --------------------Project Section-------------------- */
 .project-cards {
     display: grid;
     padding: 1.5rem 0;
@@ -206,6 +207,56 @@
     color: #1e1e2e;
 }
 
+/* --------------------About Me Section-------------------- */
+.about-me-container {
+    display: grid;
+    margin: 1.5rem 0;
+    padding: 1.5rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    border: 1px solid rgba(91, 90, 120, 0.5);
+    background-color: #111118;
+}
+
+.bio p {
+    margin: 1rem 0.5rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 16px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skill-name {
+    width: 80px;
+    flex-shrink: 0;
+    color: #e0e0f0;
+}
+
+.skill-bar {
+    flex-grow: 1;
+    height: 3px;
+    background: #1e1e2e;
+}
+
+.skill-fill.green{
+    height: 3px;
+    background: #00ffb3;
+}
+
+.skill-fill.red {
+    height: 3px;
+    background: #ff3c6e;
+}
+
 /* --------------------Generic Elements-------------------- */
 
 div > h2 > span {
@@ -225,7 +276,7 @@ p {
 h1 {
     font-family: 'Orbitron', monospace;
     font-weight: 900;
-    color: white;
+    color: #e0e0f0;
 }
 
 h2 {
@@ -233,12 +284,12 @@ h2 {
     font-size: 1rem;
     font-weight: 100;
     letter-spacing: 0.1rem;
-    color: white;
+    color: #e0e0f0;
 }
 
 h3 {
     font-family: 'Orbitron', monospace;
     font-size: 1rem;
     font-weight: 100;
-    color: white;
+    color: #e0e0f0;
 }
