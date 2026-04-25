@@ -3,8 +3,7 @@
 }
 
 /* --------------------Nav Section-------------------- */
-
-.nav-container {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +31,6 @@
 }
 
 /* --------------------Hero Section-------------------- */
-
 .hero {
     padding: 4rem 0;
     border-bottom: 1px solid rgba(91, 90, 120, 0.5);
@@ -65,12 +63,12 @@
 }
 
 /* --------------------Status Section-------------------- */
-
 .status-bar {
     display: flex;
     gap: 0rem 5rem;
     align-items: center;
     padding: 1.5rem 0;
+    margin-bottom: 3rem;
     border-bottom: 1px solid rgba(91, 90, 120, 0.5);
 }
 
@@ -91,34 +89,42 @@
     font-size: 1.25rem;
 }
 
-/* --------------------Generic Section-------------------- */
-
-.section {
+/* ---------------------Section Header-------------------- */
+.section-header {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 0;
-    align-items: center;
+    align-items:center;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
-.section hr {
-    flex-grow: 1;
-    margin-left: 10px;
-    border: 1px solid rgba(91, 90, 120, 0.5);
+.section-num {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.6rem;
+    color: #ff3c6e;
+    letter-spacing: 0.2em;
 }
 
-.break {
-    flex-basis: 100%;
+.section-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #e0e0f0;
+}
+
+.section-line {
+    flex: 1;
+    height: 1px;
+    background:rgba(91, 90, 120, 0.5);
 }
 
 /* --------------------Project Section-------------------- */
 .project-cards {
     display: grid;
-    padding: 1.5rem 0;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     width: 100%;
+    margin-bottom: 3rem;
 }
 
 .project-cards a {
@@ -210,8 +216,8 @@
 /* --------------------About Me Section-------------------- */
 .about-me-container {
     display: grid;
-    margin: 1.5rem 0;
     padding: 1.5rem 1.5rem;
+    margin-bottom: 3rem;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     border: 1px solid rgba(91, 90, 120, 0.5);
@@ -257,7 +263,35 @@
     background: #ff3c6e;
 }
 
+/* ---------------------Footer Section--------------------- */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(91, 90, 120, 0.5);
+}
+
+.footer-logo {
+    letter-spacing: 0.1rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
 /* --------------------Generic Elements-------------------- */
+a {
+    color: #5b5a78;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+a:hover {
+    color: #00ffb3;
+}
 
 div > h2 > span {
     color: #ff3c6e;
