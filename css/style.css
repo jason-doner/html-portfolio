@@ -5,6 +5,7 @@
 /* --------------------Nav Section-------------------- */
 nav {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 1.5rem;
@@ -218,21 +219,20 @@ nav {
     display: grid;
     padding: 1.5rem 1.5rem;
     margin-bottom: 3rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
     border: 1px solid rgba(91, 90, 120, 0.5);
     background-color: #111118;
 }
 
 .bio p {
-    margin: 1rem 0.5rem;
+    margin-top: 0;
 }
 
 .skills-list {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 16px;
+    gap: 2rem;
 }
 
 .skill {
@@ -242,8 +242,7 @@ nav {
 }
 
 .skill-name {
-    width: 80px;
-    flex-shrink: 0;
+    width: 8rem;
     color: #e0e0f0;
 }
 
@@ -266,6 +265,7 @@ nav {
 /* ---------------------Footer Section--------------------- */
 footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding-top: 1.5rem;
@@ -334,7 +334,19 @@ h3 {
 }
 
 @media (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+
     .project-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-me-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        flex-direction: row;
     }
 }
